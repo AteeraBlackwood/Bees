@@ -1,4 +1,11 @@
 h1{
+  text-align: center;
+  font-family: 'Nova Mono', monospace;
+  font-size: 40px;
+}
+
+h2{
+  text-align: center;
   font-family: 'Nova Mono', monospace;
   font-size: 40px;
 }
@@ -13,27 +20,18 @@ body{
   padding: 0;
 }
 
-.navigation{
-  display: flex;
+.navigation.p{
   font-family: 'Nova Mono', monospace;
   font-size: 30px;
-  box-sizing: content-box;
-  padding: 3px solid saddlebrown;
-  background-color: darkgoldenrod;
-  position: relative;
-  left: 190px;
 }
 
-.Mainbody{
-  font-size: 25px;
-  position: relative;
-  left: 190px;
-
+.Mainbody.p{
+  font-size: 20px;
 }
 
 .center{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
@@ -41,7 +39,9 @@ body{
   font-size: 120px;
 }
 
+.Mainbody{
 
+}
 
 .leftborder{
   position: fixed;
@@ -50,6 +50,8 @@ body{
 }
 
 .rightborder{
-  position: fixed;
-  transform: translate(-80%, -0%);
+  position: relative;
+  width: 170px;
+  height: 650px;
+  right: 170px;
 }
