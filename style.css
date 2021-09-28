@@ -24,7 +24,8 @@ body{
   padding: 30px solid saddlebrown;
   background-color: darkgoldenrod;
   position: relative;
-  left: 180px;
+  padding-left: 440px;
+  padding-right: 400px;
 }
 
 table, th {
