@@ -1,4 +1,8 @@
-h1{
+*{
+  box-sizing: border-box;
+}
+
+h1, h2{
   font-family: 'Nova Mono', monospace;
   font-size: 40px;
 }
@@ -14,20 +18,29 @@ body{
 }
 
 .navigation{
-  display: flex;
   font-family: 'Nova Mono', monospace;
   font-size: 30px;
-  box-sizing: content-box;
-  padding: 3px solid saddlebrown;
+  padding: 30px solid saddlebrown;
   background-color: darkgoldenrod;
   position: relative;
-  left: 190px;
+  left: 180px;
+}
+
+table, th {
+  border: 3px solid saddlebrown;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 15px;
 }
 
 .Mainbody{
   font-size: 25px;
   position: relative;
-  left: 190px;
+  padding-left: 190px;
+  padding-right: 190px;
+  font-family: 'Philosopher', sans-serif;
 
 }
 
